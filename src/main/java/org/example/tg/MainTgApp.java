@@ -16,4 +16,9 @@ public class MainTgApp {
 
   }
 
+//  TODO:
+//  Show bad design example
+//  Shew "good" design examole
+// Try to use keywords from the lesson
+//
 }

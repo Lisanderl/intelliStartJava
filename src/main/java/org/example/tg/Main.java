@@ -7,7 +7,10 @@ import org.example.tg.lesson5.AbstractCar;
 import org.example.tg.lesson5.Honda;
 import org.example.tg.lesson5.Toyota;
 import org.example.tg.lesson5.carinterface.Stop;
-
+//TODO:
+// Show access modifiers
+// Show super, this, final
+// Method overloading
 public class Main {
 
   public static void main(String[] args) {

@@ -21,7 +21,4 @@ public abstract class AbstractCar implements Stop, Start {
     System.out.println("Engine is validating");
   }
 
-  private boolean checkIsItStarted(){
-    return true;
-  }
 }
