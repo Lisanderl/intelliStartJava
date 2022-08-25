@@ -7,7 +7,7 @@ public abstract class AbstractTgBot extends TelegramLongPollingBot {
   private final TokenProvider tokenProvider;
   private final UserNameProvider userNameProvider;
 
-  protected AbstractTgBot(TokenProvider tokenProvider, UserNameProvider userNameProvider) {
+  public AbstractTgBot(TokenProvider tokenProvider, UserNameProvider userNameProvider) {
     this.tokenProvider = tokenProvider;
     this.userNameProvider = userNameProvider;
   }
@@ -20,10 +20,7 @@ public abstract class AbstractTgBot extends TelegramLongPollingBot {
 
   @Override
   public final String getBotToken() {
-
     return tokenProvider.get();
-//    return "5472311526:AAH-p8G_EwluONwEhYvOP9jLK4m0XMxar-o";
   }
-
 
 }
