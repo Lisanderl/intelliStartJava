@@ -1,0 +1,97 @@
+# jib build folder #
+/build
+/build/
+/build/**/*
+
+# Eclipse #
+*.pydevproject
+.project
+.metadata
+tmp/
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+.factorypath
+/src/main/resources/rebel.xml
+
+# Intellij #
+.idea/
+*.iml
+*.ims
+*.ipr
+*.ids
+*.orig
+classes/
+out/
+
+# vs #
+.vscode/
+
+# maven #
+/log/
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# gradle #
+.gradle/
+/build/
+/gradle/gradle-wrapper.jar
+
+!gradle/wrapper/gradle-wrapper.jar
+
+# sts #
+.apt_generated
+.settings
+.springBeans
+.sts4-cache
+
+# mac os #
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Trashes
+.svn
+.Spotlight-v100
+
+# windows #
+Thumbs.db
+Desktop.ini
+
+# eslint #
+.eslintcache
+
+# netbeans #
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# linux #
+.directory
+
+# package files #
+*.jar
+*.war
+*.db
+*.ear
+
+# logs #
+*.log*
+
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
+
+# Helm Chart
+elevate-helm-chart-*.tgz
+/.jpb/
